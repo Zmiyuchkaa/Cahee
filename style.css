@@ -1,0 +1,95 @@
+body {
+  font-family: 'Raleway', sans-serif ;
+  background-color: #f9f8fb;
+  margin: 0;
+}
+
+.cahee-header {
+  background: url(images/header_bg.jpg) 50% no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 30pt;
+  margin: 1% 10% 10%;
+  width: 20%;
+}
+
+.cahee-header_navigation {
+  float: right;
+  margin: 1% 10%;
+}
+
+.navigation_link {
+  padding-right: 35px;
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 50pt;
+  margin: 0% 10% 2%;
+  clear: both;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 14pt;
+  margin: 0% 10% 30px;
+  clear: both;
+  width: 410px;
+}
+
+.cahee_button {
+  font-weight: 100;
+  font-size: 14pt;
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  margin-left: 10%;
+	width:200px;
+  padding: 0.7% 0%;
+	background: #ff6033;
+	border-style: none;
+	color: white;
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+}
+
+.cahee-header_scroll {
+  display: block;
+  width: 30px;
+  height: 45px;
+  position: absolute;
+  left: 50%;
+  margin-top: 280px;
+  margin-bottom: 69px;
+  background-size: cover;
+  color: #424242;
+  transform: translateX(-50%);
+}
+
+.cahee-header_scroll:hover {
+  opacity: .6;
+}
+.cahee_button:hover {
+  background-color: #fb7c59;
+}
+
+.cahee-about {
+  width: 100%;
+  height: 700px;
+  background-color: #02b4b4;
+}
+
+.cahee-about_image {
+  float: left;
+}
